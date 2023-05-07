@@ -4,7 +4,8 @@
     padding: 0;
     border: 0;
 }
-html{
+
+html {
     width: 100%;
     height: 100%;
 }
@@ -22,11 +23,12 @@ ul {
 }
 
 li {
-    width: 80px;
+    width: 100px;
     height: 30px;
     border: 1px black solid;
     margin: 20px 40px 0 20px;
     display: block;
+   
 
 }
 
@@ -34,20 +36,28 @@ a {
     text-decoration: none;
     display: block;
     margin-top: 10px;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 50px;
 
 }
 
 .visibleMenu {
     visibility: hidden;
     color: black;
+    margin-top:10px;
+    background-color:grey;
+    text-align:center;
+    
+    
 }
 
 .menuH {
     color: white;
 }
 
-a:hover {
-    visibility: visible;
+li:hover {
+    .visibleMenu {
+        visibility: visible;
+    }
 }
+
